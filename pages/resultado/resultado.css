@@ -118,7 +118,7 @@ main h2 strong{
     font-weight: 500;
 }
 
-.pontucao{
+.pontuacao{
     background: var(--pontuacao-bg);
     padding: 32px;
     display: flex;
@@ -128,7 +128,7 @@ main h2 strong{
     border-radius: 12px;
 }
 
-.pontucao strong{
+.pontuacao strong{
     font-size: 88px;
     color: var(--primary-text-color);
     font-weight: 500;
@@ -196,4 +196,20 @@ main button:hover{
         width: 20px;
         height: 20px;
     }
+
+    main {
+        display: flex;
+        gap: 140px;
+        max-width: 1160px;
+        margin-inline: auto;
+    }
+
+    main h2,
+    main > div{
+        width: 100%;
+    }
+    main h2{
+        font-size: 64px;
+    }
+
 }
