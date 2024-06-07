@@ -126,6 +126,7 @@ main h2 strong{
     align-items: center;
     gap:16px;
     border-radius: 12px;
+    box-shadow: var(--shadow);
 }
 
 .pontuacao strong{
@@ -149,6 +150,7 @@ main button{
     font-size: 18px;
     font-weight: 500;
     transition-duration: 0.3s;
+    box-shadow: var(--shadow);
 }
 
 main button:hover{
